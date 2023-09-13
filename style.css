@@ -1,0 +1,30 @@
+
+.boton-modos {
+  width: 30px;
+  height: 30px;
+  margin: 1.5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: url(./png-clipart-sun-sun.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.margen-0{display: block;
+margin: auto;}
+input[type="text"] {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+input[type="text"] {
+  transition: border 0.3s ease-in-out;
+}
+input[type="text"]:focus {
+  border: 1px solid blue;
+}
+input,button {
+  margin: auto;
+  background-color: #a1d1f5;
+  color: #64696d;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
